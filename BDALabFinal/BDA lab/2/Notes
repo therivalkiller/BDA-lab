@@ -1,0 +1,6 @@
+cd ~/Desktop/BDA\ lab/2
+
+hdfs dfs -mkdir /exp2
+
+hadoop jar EvenOdd.jar EODriver /exp2/EOFile.txt /exp2/output
+

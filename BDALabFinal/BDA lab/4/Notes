@@ -1,0 +1,7 @@
+hadop jar jar-file-location input_dir output_dir
+
+cd Desktop/BDA\ lab/4/
+
+hadoop fs -put demo.txt /test
+hadoop jar WordCount.jar WordCount  /test/demo.txt /r_output
+

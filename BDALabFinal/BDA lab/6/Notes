@@ -1,0 +1,4 @@
+cd ~/Desktop/BDA\ lab/6
+hdfs dfs -mkdir /exp6
+hdfs dfs -put titanic_data.txt /exp6
+hadoop jar Titanic_Data_Analysis.jar Average_age /exp6/titanic_data.txt /exp6/output

@@ -1,0 +1,1 @@
+ hadoop jar KMeans1.jar KMeans /kmeans /kmeans/output

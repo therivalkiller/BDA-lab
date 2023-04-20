@@ -1,0 +1,1 @@
+hadoop jar Mine.jar MatrixMultiply /matrixmul /matrixmul/output
